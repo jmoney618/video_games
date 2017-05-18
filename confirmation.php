@@ -6,7 +6,7 @@ session_start();
 <head>
 	<title>eProducts - Product List</title>
 	<link rel="stylesheet" type="text/css" href="products.css" />
-<link rel="shortcut icon" href="eProducts.ico">
+    <link rel="shortcut icon" href="eProducts.ico">
 </head>
 
 <body>

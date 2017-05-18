@@ -33,7 +33,7 @@ session_start();
 	echo ($_SESSION['name'])."<br>";
 	echo "<p>Your total purchase today is \$".number_format($_SESSION['total'], 2)." and your confirmation number is: <br>";
 	
-	// create confirmation number
+	// create generic confirmation number
 	$confirm = array();
 	for($i = 0; $i < 3; $i++){
 		$confirm[$i] = rand(100, 999);
